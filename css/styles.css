@@ -25,6 +25,8 @@
 
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -33,6 +35,9 @@ body {
     background-color: var(--bg-pure-white);
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
+
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -51,6 +56,9 @@ h1, h2, h3 {
     color: var(--text-light);
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url("landing.jpg") center/cover no-repeat;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    scroll-margin-top: 0 !important;
 }
 
 .hero-content h1 {
