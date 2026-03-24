@@ -51,6 +51,7 @@ h1, h2, h3 {
     color: var(--text-light);
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
                 url("landing.jpg") center/cover no-repeat;
+    scroll-margin-top: 250px !important;
 }
 
 .hero-content h1 {
